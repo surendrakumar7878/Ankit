@@ -18,7 +18,7 @@ function clicked() {
     alert("All fields are required");
     return;
   }
-  fetch("https://rahul-907s.onrender.com/user/login", {
+  fetch("https://second-backend-gamma.vercel.app/user/login", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
